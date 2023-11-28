@@ -437,7 +437,7 @@ private:
     bool shrink_blocks = false;
     Int64 memory_usage_before_adding_blocks = 0;
 
-    /// Idendifier to distinguish different HashJoin instances in logs
+    /// Identifier to distinguish different HashJoin instances in logs
     /// Several instances can be created, for example, in GraceHashJoin to handle different buckets
     String instance_log_id;
 
